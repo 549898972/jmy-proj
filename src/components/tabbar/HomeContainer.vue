@@ -17,5 +17,8 @@
 <style lang="less" scoped>
 .swipe-container {
     height: 200px;
+    .van-swipe {
+        height: 100%;
+    }
 }
 </style>
