@@ -1,11 +1,12 @@
 <template>
     <div class="swipe-container">
         <!-- 轮播图 -->
-        <mt-swipe :auto="4000">
-            <mt-swipe-item>1</mt-swipe-item>
-            <mt-swipe-item>2</mt-swipe-item>
-            <mt-swipe-item>3</mt-swipe-item>
-        </mt-swipe>
+        <van-swipe :autoplay="3000" indicator-color="white">
+            <van-swipe-item>1</van-swipe-item>
+            <van-swipe-item>2</van-swipe-item>
+            <van-swipe-item>3</van-swipe-item>
+            <van-swipe-item>4</van-swipe-item>
+        </van-swipe>
     </div>
 </template>
 
