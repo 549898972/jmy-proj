@@ -6,6 +6,7 @@ import CartContainer from './components/tabbar/CartContainer.vue'
 
 var router = new VueRouter({
     routes:[
+        { path: '/', redirect:'/home' },
         { path: '/home', component: HomeContainer },
         { path: '/member', component: MemberContainer },
         { path: '/cart', component: CartContainer },
